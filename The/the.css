@@ -14,7 +14,7 @@ body {
 .head {
   width: 100%;
   height: 20vh;
-  background: url(img/bg.jpg) no-repeat center center/cover;
+  background: url(../img/bg.jpg) no-repeat center center/cover;
 }
 
 .head-title {
@@ -86,7 +86,7 @@ body {
 .footer {
   width: 100%;
   height: max-content;
-  background: url(img/bg.jpg) no-repeat center center/cover;
+  background: url(../img/bg.jpg) no-repeat center center/cover;
   /*background-size: 100%;*/
 }
 
