@@ -50,36 +50,45 @@ body {
 }
 
 /*Section equipe*/
-.equipe > h1 {
+
+.offret > h1 {
+  color: #96b011;
+  text-align: center;
   margin: 15px 15px;
 }
-.equipe h3 {
-  color: green;
-  margin: 15px 15px;
+
+.chose-the {
+  background-color: white;
 }
 
-.img1 {
-  float: left;
-  margin: 10px 15px;
-  width: 50%;
-}
-
-.img2 {
-  float: right;
-  margin: 10px 15px;
-  width: 50%;
-}
-
-.concept {
-  margin-top: 15px;
-}
-
-.flex-concept {
+.chose-the-flex {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: antiquewhite;
-  margin: 15px 15px;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
+}
+
+.chose-the > h1 {
+  text-align: center;
+  color: #96b011;
+}
+
+.chose-the a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Detail-thé*/
+.detail-the-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.detail-the {
+  padding-top: 15px;
 }
 
 /*Footer*/
