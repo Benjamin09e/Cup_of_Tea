@@ -49,6 +49,11 @@ body {
   height: max-content;
 }
 
+.container-color{
+  background-color: white;
+  margin-bottom: 15px;
+}
+
 /*Section equipe*/
 .equipe > h1 {
   margin: 15px 15px;
