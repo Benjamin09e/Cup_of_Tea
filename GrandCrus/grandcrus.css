@@ -45,37 +45,7 @@
 }
 
 /*Section equipe*/
-.equipe > h1 {
-  margin: 15px 15px;
-}
-.equipe h3 {
-  color: green;
-  margin: 15px 15px;
-}
 
-.img1 {
-  float: left;
-  margin: 10px 15px;
-  width: 50%;
-}
-
-.img2 {
-  float: right;
-  margin: 10px 15px;
-  width: 50%;
-}
-
-.concept {
-  margin-top: 15px;
-}
-
-.flex-concept {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: antiquewhite;
-  margin: 15px 15px;
-}
 
 /*Footer*/
 .footer {
