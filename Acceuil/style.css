@@ -17,10 +17,26 @@ body {
   background: url(../img/bg.jpg) no-repeat center center/cover;
 }
 
+.head-top {
+  background-color:  #879e0f;;
+  text-align: center;
+  color: white;
+}
+
+.flex-right {
+  position: absolute;
+  right: 0;
+}
+
+.flex-right img {
+  height: 80px;
+}
+
 .head-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .head-logo img {
@@ -30,7 +46,7 @@ body {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .nav-links div a {
@@ -49,7 +65,7 @@ body {
   height: max-content;
 }
 
-.container-color{
+.container-color {
   background-color: white;
   margin-bottom: 15px;
 }
@@ -61,6 +77,10 @@ body {
 .equipe h3 {
   color: green;
   margin: 15px 15px;
+}
+
+.equipe > p {
+  text-align: justify;
 }
 
 .img1 {
@@ -75,13 +95,19 @@ body {
   width: 50%;
 }
 
+/* Concept */
+
+.concept > p {
+  text-align: justify;
+}
+
 .concept {
   margin-top: 15px;
 }
 
 .flex-concept {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: antiquewhite;
   margin: 15px 15px;
@@ -98,6 +124,7 @@ body {
 .footer-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: max-content;
   background-color: rgba(82, 80, 80, 0.158);
 }

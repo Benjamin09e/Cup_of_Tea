@@ -17,10 +17,26 @@ body {
   background: url(../img/bg.jpg) no-repeat center center/cover;
 }
 
+.head-top {
+  background-color: #879e0f;
+  text-align: center;
+  color: white;
+}
+
+.flex-right {
+  position: absolute;
+  right: 0;
+}
+
+.flex-right img {
+  height: 80px;
+}
+
 .head-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .head-logo img {
@@ -30,7 +46,7 @@ body {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .nav-links div a {
@@ -54,12 +70,13 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: white;
+
   margin: 15px;
 }
 
 .container-element {
   padding: 15px 15px;
+  
 }
 
 .element-flex div {
@@ -69,6 +86,24 @@ body {
 
 .element-flex {
   padding: 15px 15px;
+}
+
+.img-el-top {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+.img-el-left {
+  float: left;
+  width: 10%;
+}
+
+.btn-color {
+  background-color: #b09067;
+  border: none;
+  padding: 15px 15px;
+  color: white;
 }
 
 /*Footer*/
