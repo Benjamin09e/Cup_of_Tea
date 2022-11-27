@@ -5,8 +5,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #f2f2f2f2;
 }
 
@@ -75,12 +73,13 @@ body {
   margin: 15px 15px;
 }
 .equipe h3 {
-  color: green;
+  color:#879e0f;
   margin: 15px 15px;
 }
 
 .equipe > p {
   text-align: justify;
+  padding: 15px;
 }
 
 .img1 {
@@ -99,6 +98,11 @@ body {
 
 .concept > p {
   text-align: justify;
+  padding: 15px;
+}
+
+.concept h1{
+  padding: 15px;
 }
 
 .concept {
@@ -109,8 +113,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   background-color: antiquewhite;
   margin: 15px 15px;
+}
+
+.flex-concept div{
+  padding: 10px 10px;
 }
 
 /*Footer*/
@@ -131,6 +140,8 @@ body {
 
 .footer-top div {
   text-align: center;
+  margin: 15px 25px;
+  color: white;
 }
 
 .footer-top div i {
@@ -142,6 +153,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  color: white;
 }
 
 .footer-bottom {
@@ -152,4 +165,5 @@ body {
 
 .footer-bottom p {
   text-align: center;
+  color: white;
 }

@@ -123,6 +123,8 @@ body {
 
 .footer-top div {
   text-align: center;
+  margin: 15px 25px;
+  color: white;
 }
 
 .footer-top div i {
@@ -134,6 +136,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  color: white;
+
+}
+
+.footer-middle div{
+  margin: 15px;
 }
 
 .footer-bottom {
@@ -144,4 +153,5 @@ body {
 
 .footer-bottom p {
   text-align: center;
+  color: white;
 }
