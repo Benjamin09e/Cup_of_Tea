@@ -5,8 +5,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #f2f2f2f2;
 }
 
@@ -17,10 +15,26 @@ body {
   background: url(../img/bg.jpg) no-repeat center center/cover;
 }
 
+.head-top {
+  background-color:  #879e0f;;
+  text-align: center;
+  color: white;
+}
+
+.flex-right {
+  position: absolute;
+  right: 0;
+}
+
+.flex-right img {
+  height: 80px;
+}
+
 .head-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .head-logo img {
@@ -30,7 +44,7 @@ body {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .nav-links div a {
@@ -49,7 +63,7 @@ body {
   height: max-content;
 }
 
-.container-color{
+.container-color {
   background-color: white;
   margin-bottom: 15px;
 }
@@ -59,8 +73,13 @@ body {
   margin: 15px 15px;
 }
 .equipe h3 {
-  color: green;
+  color:#879e0f;
   margin: 15px 15px;
+}
+
+.equipe > p {
+  text-align: justify;
+  padding: 15px;
 }
 
 .img1 {
@@ -75,16 +94,32 @@ body {
   width: 50%;
 }
 
+/* Concept */
+
+.concept > p {
+  text-align: justify;
+  padding: 15px;
+}
+
+.concept h1{
+  padding: 15px;
+}
+
 .concept {
   margin-top: 15px;
 }
 
 .flex-concept {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
   background-color: antiquewhite;
   margin: 15px 15px;
+}
+
+.flex-concept div{
+  padding: 10px 10px;
 }
 
 /*Footer*/
@@ -98,12 +133,15 @@ body {
 .footer-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: max-content;
   background-color: rgba(82, 80, 80, 0.158);
 }
 
 .footer-top div {
   text-align: center;
+  margin: 15px 25px;
+  color: white;
 }
 
 .footer-top div i {
@@ -115,6 +153,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  color: white;
 }
 
 .footer-bottom {
@@ -125,4 +165,5 @@ body {
 
 .footer-bottom p {
   text-align: center;
+  color: white;
 }
