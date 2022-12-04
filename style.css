@@ -171,7 +171,6 @@ body {
 /* Responsive */
 
 @media screen and (max-width: 992px) {
-  
   .container {
     width: 100%;
   }
@@ -194,6 +193,12 @@ body {
 
   .nav-links {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-right {
+    display: none;
   }
 
   /* Concept */
