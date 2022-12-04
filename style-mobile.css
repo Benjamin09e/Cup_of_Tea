@@ -16,7 +16,7 @@ body {
 }
 
 .head-top {
-  background-color: #879e0f;
+  background-color:  #879e0f;;
   text-align: center;
   color: white;
 }
@@ -73,7 +73,7 @@ body {
   margin: 15px 15px;
 }
 .equipe h3 {
-  color: #879e0f;
+  color:#879e0f;
   margin: 15px 15px;
 }
 
@@ -101,7 +101,7 @@ body {
   padding: 15px;
 }
 
-.concept h1 {
+.concept h1{
   padding: 15px;
 }
 
@@ -118,7 +118,7 @@ body {
   margin: 15px 15px;
 }
 
-.flex-concept div {
+.flex-concept div{
   padding: 10px 10px;
 }
 
@@ -166,53 +166,4 @@ body {
 .footer-bottom p {
   text-align: center;
   color: white;
-}
-
-/* Responsive */
-
-@media screen and (max-width: 992px) {
-  
-  .container {
-    width: 100%;
-  }
-
-  /* Concept */
-  .flex-concept {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 680px) {
-  /* Header */
-  .head {
-    height: max-content;
-  }
-
-  .head-title {
-    flex-direction: column;
-  }
-
-  .nav-links {
-    flex-direction: column;
-  }
-
-  /* Concept */
-  .flex-concept {
-    flex-direction: column;
-  }
-
-  /* Footer */
-  .footer {
-    width: 100%;
-    height: max-content;
-    background: url(./img/bg.jpg) no-repeat center center/cover;
-  }
-
-  .footer-top {
-    flex-direction: column;
-  }
-
-  .footer-middle {
-    flex-direction: column;
-  }
 }

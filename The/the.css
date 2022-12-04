@@ -76,7 +76,6 @@ body {
 
 .container-element {
   padding: 15px 15px;
-  
 }
 
 .element-flex div {
@@ -138,10 +137,9 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-
 }
 
-.footer-middle div{
+.footer-middle div {
   margin: 15px;
 }
 
@@ -155,3 +153,64 @@ body {
   text-align: center;
   color: white;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 992px) {
+
+  
+
+}
+
+@media screen and (max-width: 680px) {
+  /* Header */
+  .head {
+    width: 100%;
+    height: max-content;
+    background: url(./img/bg.jpg) no-repeat center center/cover;
+  }
+
+  .head-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+
+ 
+
+  /* Footer */
+  .footer {
+    width: 100%;
+    height: max-content;
+    background: url(./img/bg.jpg) no-repeat center center/cover;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: rgba(82, 80, 80, 0.158);
+  }
+
+  .footer-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+}
+
