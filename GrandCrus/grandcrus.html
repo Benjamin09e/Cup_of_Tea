@@ -9,8 +9,8 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="grandcrus.css">
-  <link rel="stylesheet"  media="screen and (max-width:992px)" href="grandcrus-table.css">
-  <link rel="stylesheet"  media="screen and (max-width:680px)" href="grandcrus-mobile.css">
+  <link rel="stylesheet" media="screen and (max-width:992px)" href="grandcrus-table.css">
+  <link rel="stylesheet" media="screen and (max-width:680px)" href="grandcrus-mobile.css">
   <title>Cup of Tea</title>
 </head>
 
@@ -21,6 +21,9 @@
     <div class="head-top">
       <p>Livraison offerte à partir de 65€ d'achat !</p>
     </div>
+    <div class="btn-price">
+      <p> <i class="fa fa-shopping-cart" aria-hidden="true"></i>42.00€</p>
+    </div>
     <div class="flex-right">
       <div> <img src="../img/ribbon.svg" width="100%" alt=""> </div>
     </div>
@@ -30,7 +33,7 @@
           <a href="../index.html">
             <img src="../img/logo.png" alt="">
           </a>
-          
+
         </div>
         <div class="head-price">
           <p>Mon panier <i class="fa fa-shopping-cart" aria-hidden="true"></i> 42.00€</p>
@@ -55,11 +58,14 @@
           <h5>Thé noir à la bergamote</h5>
           <p>Ref: 133742</p>
         </div>
-        <div>
-          <i class="fa fa-coffee" aria-hidden="true"></i>
-          <i class="fa fa-coffee" aria-hidden="true"></i>
-          <i class="fa fa-coffee" aria-hidden="true"></i>
-          <i class="fa fa-coffee" aria-hidden="true"></i>
+        <div class="part-right-head">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" id="color-fa"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
           <p>Avoir plus de 56 avis clients</p>
         </div>
       </div>
@@ -68,17 +74,15 @@
         <div>
           <img src="../img/product/product1.jpg" width="100%" alt="">
         </div>
-        <div>
+        <div class="part-right">
           <input type="number" placeholder="Pochette de 100gr">
           <h1>9,00€</h1>
-          <button class="btn-color" >AJOUTER AU PANIER</button>
-          <br><br>
-          <i class="fa fa-coffee" aria-hidden="true">
-            <p>Ajouter à ma liste d'envie</p>
-          </i>
-
+          <button class="btn-color">AJOUTER AU PANIER</button>
+          <p><i class="fa fa-heart" aria-hidden="true"></i>Ajouter à ma liste d'envie </p>
         </div>
+
       </div>
+
       <section class="detail">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum aperiam nisi id totam repellat ad nobis
           molestias libero numquam asperiores, a dignissimos temporibus cupiditate quod. Cumque itaque quas blanditiis.
@@ -123,23 +127,23 @@
   <footer class="footer">
     <div class="footer-top">
       <div>
-        <i class="fa fa-coffee" aria-hidden="true"></i>
+        <i class="fa fa-lock" aria-hidden="true"></i>
         <p>paiement securisé</p>
       </div>
       <div>
-        <i class="fa fa-coffee" aria-hidden="true"></i>
+        <i class="fa fa-truck" aria-hidden="true"></i>
         <p>paiement securisé</p>
       </div>
       <div>
-        <i class="fa fa-coffee" aria-hidden="true"></i>
+        <i class="fa fa-free-code-camp" aria-hidden="true"></i>
         <p>paiement securisé</p>
       </div>
       <div>
-        <i class="fa fa-coffee" aria-hidden="true"></i>
+        <i class="fa fa-phone" aria-hidden="true"></i>
         <p>paiement securisé</p>
       </div>
       <div>
-        <i class="fa fa-coffee" aria-hidden="true"></i>
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
         <p>paiement securisé</p>
       </div>
     </div>

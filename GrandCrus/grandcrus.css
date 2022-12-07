@@ -21,6 +21,10 @@ body {
   color: white;
 }
 
+.head-price {
+  color: white;
+}
+
 .flex-right {
   position: absolute;
   right: 0;
@@ -67,16 +71,44 @@ body {
 .container-color {
   background-color: white;
   margin-bottom: 25px;
+  padding: 10px 10px;
+  height: max-content;
+}
+
+.part-right-head i {
+  color: gold;
+}
+
+#color-fa {
+  border: 1px solid black;
 }
 
 .flex-head {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .flex-body {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.part-right > p {
+  margin-top: 15px;
+}
+
+.part-right > p i {
+  color: red;
+}
+
+.part-right-head {
+  text-align: end;
+}
+
+.part-right-head > p {
+  color: #879e0f;
 }
 
 /*Detail*/
@@ -137,11 +169,21 @@ body {
 }
 
 /* Responsive */
+@media screen and (max-width: 1400px) {
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
-
   .container {
     width: 100%;
+  }
+
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
   }
 }
 
@@ -162,7 +204,7 @@ body {
     margin-top: 10px;
   }
 
-  .flex-right{
+  .flex-right {
     display: none;
   }
 
@@ -170,6 +212,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  /* ---- price ----*/
+  .head-price {
+    display: none;
+  }
+
+  /*----- btn price ------*/
+  .btn-price {
+    display: block;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 3px 2px 7px black;
+    margin-top: 15px;
+    background-color: #879e0f;
+    width: 92px;
+    padding: 13px;
+    color: white;
   }
 
   /*Flex body -*/
@@ -180,7 +240,7 @@ body {
   }
 
   .flex-body {
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

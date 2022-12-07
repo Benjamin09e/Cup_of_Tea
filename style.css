@@ -21,6 +21,10 @@ body {
   color: white;
 }
 
+.head-price {
+  color: white;
+}
+
 .flex-right {
   position: absolute;
   right: 0;
@@ -169,6 +173,12 @@ body {
 }
 
 /* Responsive */
+@media screen and (max-width: 1400px) {
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .container {
@@ -178,6 +188,11 @@ body {
   /* Concept */
   .flex-concept {
     flex-direction: column;
+  }
+
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
   }
 }
 
@@ -199,6 +214,24 @@ body {
 
   .flex-right {
     display: none;
+  }
+
+  /* ---- price ----*/
+  .head-price {
+    display: none;
+  }
+
+  /*----- btn price ------*/
+  .btn-price {
+    display: block;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 3px 2px 7px black;
+    margin-top: 15px;
+    background-color: #879e0f;
+    width: 92px;
+    padding: 13px;
+    color: white;
   }
 
   /* Concept */

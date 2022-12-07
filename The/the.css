@@ -23,6 +23,10 @@ body {
   color: white;
 }
 
+.head-price {
+  color: white;
+}
+
 .flex-right {
   position: absolute;
   right: 0;
@@ -154,14 +158,24 @@ body {
 }
 
 /* Responsive */
+@media screen and (max-width: 1400px) {
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
-
   .container {
     width: 100%;
   }
   .element-flex {
     flex-direction: column;
+  }
+
+  /* ----- btn price --------*/
+  .btn-price {
+    display: none;
   }
 }
 
@@ -181,9 +195,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
   }
 
-  .flex-right{
+  .nav-links div a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+  }
+  /*--- price ----*/
+  .head-price {
+    display: none;
+  }
+
+  /*----- btn price ------*/
+  .btn-price {
+    display: block;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 3px 2px 7px black;
+    margin-top: 15px;
+    background-color: #879e0f;
+    width: 92px;
+    padding: 13px;
+    color: white;
+  }
+
+  .flex-right {
     display: none;
   }
 
